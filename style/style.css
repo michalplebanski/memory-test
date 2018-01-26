@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+body {
+	margin: 0;
+	background-color: #e5e0e0;
+	color: #a59d9d;
+    font-family: 'Lobster', sans-serif;
+    font-size: 28px;
+}
+
+h2 {
+	font-size: 64px;
+	font-weight: 400;
+	text-align: center;
+	letter-spacing: 5px;
+	margin-top: 20px;
+	margin-bottom: 0;
+}
+
+a {
+	color: #a59d9d;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #e9b64a;
+}
+
+p {
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 25px;
+	letter-spacing: 2px;
+}
+
+
+.board {
+	width: 600px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.cardA {
+	width: 125px;
+	height: 125px;
+	display: inline-block;
+	margin: 3px;
+	background-image: url('../img/karta.png');
+	border: 4px solid #e9b64a;
+	border-radius: 4px;
+	filter:  brightness(100%);
+	transition: all .3s ease-in-out;
+}
+
+.card {
+	width: 125px;
+	height: 125px;
+	display: inline-block;
+	margin: 3px;
+	background-image: url('../img/karta.png');
+	border: 4px solid #ccc;
+	border-radius: 4px;
+	cursor: pointer;
+	filter:  brightness(70%);
+	transition: all .3s ease-in-out;
+}
+
+.card:hover {
+	border: 4px solid #e9b64a;
+	filter:  brightness(100%);
+}
+
+.score {
+	margin-top: 5px;
+	letter-spacing: 2px;
+}
+
+button {
+	background-color: #fff;
+	border: none;
+	padding: 30px 50px;
+	font-size: 40px;
+	font-family: 'Lobster';
+	color: #a59d9d;
+	border-radius: 10px;
+	display: none;
+	
+}
+
+.start-button {
+	display: block;
+	margin: 0 auto;
+	margin-top: 35px;
+	cursor: pointer;
+}
